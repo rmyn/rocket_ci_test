@@ -7,4 +7,5 @@ fi
 mkdir -p $ROCKET_WORKSPACE/app/.build
 code=$?
 cp -r ${HOME}/.gradle $ROCKET_CACHE
+echo 'test'
 exit $code
